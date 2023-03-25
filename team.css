@@ -208,7 +208,8 @@ ul{
   justify-self: center;
   border-radius: 15px;
   grid-column: 1/-1;
-  grid-row: 1/2
+  grid-row: 1/2;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
  .team .card .card5, .team .card .card6, .team .card .card7,
@@ -220,6 +221,7 @@ ul{
     grid-template-rows: 80% 20%;
     justify-self: center;
     border-radius: 15px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 .team .card h3{
     margin: 10px 0px;
@@ -350,7 +352,8 @@ ul{
   .team .card{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(5,1fr);
-    gap: 25px;
+    gap: 14px;
+    justify-content: center;
   }
 }
 
@@ -397,7 +400,7 @@ ul{
   .team .card .card1, .team .card .card5, .team .card .card6,
   .team .card .card7, .team .card .card8, .team .card .card9,
   .team .card .card10, .team .card .card11, .team .card .card12{
-    width: 155px;
-    height: 209px;
+    /* width: 155px; */
+    /* height: 209px; */
   }
 }
