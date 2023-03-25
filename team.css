@@ -392,3 +392,12 @@ ul{
     font-size: 14px;
   }
 }
+
+@media(max-width: 430px){
+  .team .card .card1, .team .card .card5, .team .card .card6,
+  .team .card .card7, .team .card .card8, .team .card .card9,
+  .team .card .card10, .team .card .card11, .team .card .card12{
+    width: 155px;
+    height: 209px;
+  }
+}
