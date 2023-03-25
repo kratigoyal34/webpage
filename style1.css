@@ -150,14 +150,14 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), black),url("1.webp");
+    background-image: linear-gradient(black,#5c9e32),url("1.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   
   .home .content span{
-    font-size: 3rem;
+    font-size: 2rem;
     color:white;
     font-weight: 700;
   }
@@ -343,7 +343,7 @@ section{
   }
   .footer-col{
      width: 25%;
-     padding: 0 15px;
+     padding: 0 120px;
   }
   .footer .container .row{
     display: flex;
